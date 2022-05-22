@@ -39,7 +39,7 @@ h1,h2,h3,h4,h5,h6{
     color: #000;
 }
 /* /////////////////////start navbar/////////// */
-vbar-brand img{
+.navbar-brand img{
 width: 5%;
 }
 .navbar-nav>li>a{
@@ -88,6 +88,7 @@ width: 5%;
 .header-content .text p{
     font-size: 1.4rem;
     font-weight: 500;
+
 }
 .header-content .text p::after{
     content: " ";
@@ -253,37 +254,36 @@ width: 5%;
 /* ///////////end header/////////////// */
 /* ///////////start about/////////////// */
  .about-photo{
-    /*
-    width: 33.33%;
-    height: 30rem;
-    background-image:url(../imgs/1\ \(1\).jpg) ;
-    background-position: center;
-    background-size: cover; */
+   
     position: relative;
     transition: all .5s;
   
 }
-
+.about-photo img{
+    width: 100%;
+    background-color: #00d4bd;
+}
 .about-photo::before{
+   
     content: "";
     width: 100%;
     height: 100%;
     position: absolute;
     border: 10px solid #000;
-    top: 5%;
-    left:5%;
+    top: 7%;
+    left:7%;
     z-index: -1;
     transition: all .5s;
 
 }
-.about-photo:hover{
+ .about-photo:hover{
     transform: translate(5%,-5%);
 }
 .about-photo:hover::before{
-    top:10% ;
-    left: -10%;
+    top:-7% ;
+    left: -8%;
 
-}
+} 
 .about-info span::after{
     content: "";
     animation: header-typing 5s infinite;
