@@ -523,6 +523,10 @@ width: 5%;
     .social-media-icon {
         text-align: center !important;
     }
+    .contact iframe{
+        margin: 1rem  0;
+        padding: 2rem 0;
+    }
 }
 @media screen and (min-width:577px ) and (max-width:767px){
     body{
@@ -545,6 +549,10 @@ width: 5%;
     .news p{
         font-size: .8rem;
 
+    }
+    .contact iframe{
+        margin: 1rem  0;
+        padding: 2rem 0;
     }
     footer {
         text-align: center !important;
